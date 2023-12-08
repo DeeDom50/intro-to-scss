@@ -1,0 +1,9 @@
+$breakpoint-lg: 800px;
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+@import "card";
+
