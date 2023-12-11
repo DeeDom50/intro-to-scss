@@ -1,9 +1,11 @@
-$breakpoint-lg: 800px;
+@layer bootstrap {
+  @import "../node_modules/bootstrap/scss/bootstrap";
+}
 
 .page-wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100dvh;
 }
-@import "card";
+
 
